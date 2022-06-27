@@ -1,0 +1,226 @@
+
+@font-face{
+ font-family: bigeyes;
+ src: url(../fonts/RubikMoonrocks-Regular.ttf);
+}
+.top-header{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-image: url('../../asset/img/boys.jpg');
+	background-position: center;
+
+}
+
+.player-name{
+	position: relative;
+	left: 30px;
+	font-weight: 70px;
+	color: black;
+	font-size: 20px;
+	word-spacing: 10px;
+
+	
+	
+}
+
+.player-tools{
+	text-align: right;
+	color:  white;
+}
+
+.player-tools-case{
+width: 300px;
+height: 100px;
+float: right;
+}
+
+.player-profile{
+position: relative;
+width: 100%;
+height: 200px;
+background-color: indigo;
+
+}
+
+.heading{
+width: 100%;
+height: 200px;
+color:  black;
+background-image: linear-gradient(to right, blue,pink);
+}
+.title{
+	font-family: bigeyes;
+	text-transform: uppercase;
+	text-shadow: 10px 10px 5px rosybrown;
+
+}
+.subtitle{
+	font-family: bigeyes;
+	text-align: center;
+	text-transform: uppercase;
+}
+.login-form{
+	width: 95%;
+	height: 500px;
+	margin-top: 50px;
+background-image: url('../../asset/img/backtoschool2.jpeg');
+background-repeat: no-repeat;
+background-size: 400px 400px;
+background-position: center;
+}
+
+.login-form input{
+	position: relative;
+	top: 200px;
+}
+.login-form-layer{
+		background-image: url('../../asset/img/backtoschool2.jpeg');
+}
+li{
+	
+	color: black;
+
+}
+li a{
+	color:  black;
+}
+h3{
+	
+}
+body{
+
+	
+	color: black;
+}
+
+.question_header{
+	color:  white;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.options {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.vlayer{
+	width: 97%;
+	height: 500px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px;
+	background-image: url('../asset/img/backtoschool1(1).jpeg');
+
+}
+.vlayer video{
+	width: 100%;
+	height: 470px;
+}
+
+.foot{
+	position: relative;
+	top:  200px;
+	width: 100%;
+	height: 300px;
+	background-image: url('../../asset/img/boys.jpg');
+	background-position: center;
+	
+	box-shadow: 5px 5px 5px 5px;
+	
+}
+.foot div{
+text-align: center;
+}
+
+.foot h1{
+	font-family: bigeyes;
+}
+
+.foot li{
+
+}
+
+/**time properties**/
+.time{
+	width: 300px;
+	height: 20px;
+	background-color: transparent;
+	position: fixed;
+	z-index: 10;
+	left: 35%;
+	
+
+}
+#sec{
+	font-family: bigeyes;
+	font-size: 50px;
+	
+}
+#sep{
+	position: relative;
+	font-size: 50px;
+	left: 90px;
+	top: -165px;
+	font-family: bigeyes;
+}
+#sep2{
+	position: relative;
+	font-size: 50px;
+	right: 70px;
+	top: -165px;
+	font-family: bigeyes;
+}
+#min{
+	position: relative;
+	top:  -90px;
+	left: 200px;
+	font-family: bigeyes;
+	font-size: 50px;
+	margin-left: 60px;
+}
+
+
+#nano{
+	position: relative;
+	font-size: 50px;
+	right: 150px;
+	top: -165px;
+	font-family: bigeyes;
+}
+
+/** logout session **/
+
+.logout{
+	float: right;
+	color:  white;
+	font-weight: bolder;
+
+}
+
+/** submit button **/
+.submit{
+	position: relative;
+	font-weight: bolder;
+	left: 25%;
+	font-size:  50px;
+	color:  blue;
+
+}
+.submit:hover{
+	color:  green;
+}
+
+.score{
+	position: absolute;
+	top:  300px;
+	color:  white;
+	font-size: 36px;
+	font-family: cursive;
+}
+
+.users{
+	font-family: cursive;
+	font-size: 20px;
+	color:  white;
+}
